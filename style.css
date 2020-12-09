@@ -86,16 +86,16 @@ textarea{
 
 .footer{
 	background-color: var(--primary-color);
-    padding: 1rem rem;
+    padding: 1.5rem 0rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 	width: 100%;
-	margin: rem;
+	margin: rem rem;
+	margin-top: rem;
     margin-bottom: 0rem;
-    /* align-items: center;
-	text-align: center; */
-	padding-inline-start: 5px;
-	
+    align-items: center;
+	text-align: center;
+	padding-inline-start: 1px;
 }
 .hero-img {
     max-width: 300px;
@@ -103,11 +103,11 @@ textarea{
     margin: auto;
 	}
 	
-.navigation1{
+/* .navigation1{
 	background-color: var(--primary-color);
 	padding: 1rem 0.5rem;
 	color: white;
 	border-bottom-left-radius: 0rem; 
-    border-bottom-right-radius: 0rem; 
+    border-bottom-right-radius: 0rem;  */
 
 }
