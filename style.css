@@ -101,4 +101,13 @@ textarea{
     max-width: 300px;
     display: block;
     margin: auto;
-    }
+	}
+	
+.navigation1{
+	background-color: var(--primary-color);
+	padding: 1rem 0.5rem;
+	color: white;
+	border-bottom-left-radius: 0rem; 
+    border-bottom-right-radius: 0rem; 
+
+}
