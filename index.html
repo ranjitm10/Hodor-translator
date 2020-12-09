@@ -24,19 +24,29 @@
 </head>
 <body>
 	<nav class="navigation">
-		<h1 class="nav-logo", style="text-align: center;">Speak like Dothraki</h1>
+		<h1 class="nav-logo", style="text-align: center; color: white; font-weight: bold;">Speak like Dothraki</h1>
 	</nav>
 	
-	<section>
-	<textarea id="txtInput" placeholder="Enter your text here!"></textarea><br>
-	<button id="btn" class="link link-primary">
-		Translate to Dothraki Language</button>
-	<p>Output will be shown here below👇.</p>
-	<textarea id="divOut"></textarea>
-	<script type="text/javascript" src="./main.js"></script>
-    </section>
+	<section class="main-sec">  
+    <section>
+      <p style="color: white; align-items: center;">What do you want to translate? enter below👇.</p>
+      <textarea id="txtInput" placeholder="Enter your text here!"></textarea> 
+      </section>
+    
+    <button id="btn" class="link link-primary">
+      Translate to Dothraki Language
+    </button>
+
+    <section style="text-align: center;">
+      <p style="color: white; ">Output will be shown here below👇.</p>
+      <textarea id="txtInput"></textarea> 
+      </section>
+    
+  </section>
+
 	<footer class="footer", style="text-align: center;">
 	</footer>
 
+	<script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
